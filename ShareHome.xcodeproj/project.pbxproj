@@ -49,6 +49,7 @@
 		EAD831891EADD41F00618D33 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD831851EADD41F00618D33 /* FBSDKLoginKit.framework */; };
 		EAD8318A1EADD41F00618D33 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD831861EADD41F00618D33 /* FBSDKShareKit.framework */; };
 		EAFAB65C1EB6BCAA005CCCAD /* MyBackendless.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAB65B1EB6BCAA005CCCAD /* MyBackendless.swift */; };
+		EAFAB65E1EB6DC97005CCCAD /* livingRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAFAB65D1EB6DC97005CCCAD /* livingRoom.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -453,6 +454,7 @@
 		EAD831861EADD41F00618D33 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../../Documents/FacebookSDKs-iOS-4.22.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		EAFAB65A1EB6A519005CCCAD /* ShareHome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareHome.entitlements; sourceTree = "<group>"; };
 		EAFAB65B1EB6BCAA005CCCAD /* MyBackendless.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBackendless.swift; sourceTree = "<group>"; };
+		EAFAB65D1EB6DC97005CCCAD /* livingRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = livingRoom.jpg; path = ../../livingRoom.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -502,6 +504,7 @@
 			isa = PBXGroup;
 			children = (
 				EA2310621E7B3631000D37B8 /* white.png */,
+				EAFAB65D1EB6DC97005CCCAD /* livingRoom.jpg */,
 				EA7026C61E96E09C00AFED72 /* home.png */,
 				EA7026CA1E96FF0400AFED72 /* placeholder.png */,
 				EA82FB2D1E7A853700F4B191 /* burger.png */,
@@ -1261,6 +1264,7 @@
 				EA2310631E7B3631000D37B8 /* white.png in Resources */,
 				EA82FB2E1E7A853700F4B191 /* burger.png in Resources */,
 				EA7026C71E96E09C00AFED72 /* home.png in Resources */,
+				EAFAB65E1EB6DC97005CCCAD /* livingRoom.jpg in Resources */,
 				EA7C6F8C1E78DD9C0057D3D9 /* LaunchScreen.storyboard in Resources */,
 				EA7026CB1E96FF0400AFED72 /* placeholder.png in Resources */,
 				EA7C6F891E78DD9C0057D3D9 /* Assets.xcassets in Resources */,
