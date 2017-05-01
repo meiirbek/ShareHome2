@@ -76,7 +76,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
        
         
         
-        if backendless?.userService.currentUser == nil {
+        if (UserDefaults.standard.value(forKey: "username") as? String) == nil {
             self.goToViewController("initialLoginVC")
         } else {
             self.goToViewController("revealVC")
