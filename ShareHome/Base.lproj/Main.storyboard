@@ -122,97 +122,183 @@
                         <sections>
                             <tableViewSection id="Zc4-Yn-7ay">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Home" rowHeight="83" id="UPq-29-Hrt">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="83"/>
+                                    <tableViewCell clipsSubviews="YES" alpha="0.25" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="topPart" rowHeight="151" id="xsv-Ab-XZt">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="151"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xsv-Ab-XZt" id="mFM-RK-Ahy">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="150.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Home" rowHeight="44" id="UPq-29-Hrt">
+                                        <rect key="frame" x="0.0" y="151" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UPq-29-Hrt" id="qee-Ol-Mmv">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="82.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="7RH-E4-QNv">
+                                                    <rect key="frame" x="46" y="0.0" width="38" height="39"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="38" id="bhd-hF-nbx"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="7RH-E4-QNv" firstAttribute="top" secondItem="qee-Ol-Mmv" secondAttribute="top" id="Avc-Uu-Sat"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="7RH-E4-QNv" secondAttribute="bottom" constant="-3.5" id="Gxt-e2-NTt"/>
+                                                <constraint firstItem="7RH-E4-QNv" firstAttribute="leading" secondItem="qee-Ol-Mmv" secondAttribute="leadingMargin" constant="38" id="w0b-S8-bQ9"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <segue destination="Xkn-bu-nCU" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="AG9-k5-IaF"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Profile" rowHeight="83" id="JD0-cg-gqz">
-                                        <rect key="frame" x="0.0" y="83" width="375" height="83"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Profile" rowHeight="44" id="JD0-cg-gqz">
+                                        <rect key="frame" x="0.0" y="195" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JD0-cg-gqz" id="Dc8-wa-Pdk">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="82.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="human.png" translatesAutoresizingMaskIntoConstraints="NO" id="zae-lX-hGl">
+                                                    <rect key="frame" x="46" y="0.0" width="38" height="39"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="38" id="0Gd-t2-m8b"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="zae-lX-hGl" secondAttribute="bottom" constant="-3.5" id="Jb0-N8-m01"/>
+                                                <constraint firstItem="zae-lX-hGl" firstAttribute="top" secondItem="Dc8-wa-Pdk" secondAttribute="top" id="PDy-U6-vFX"/>
+                                                <constraint firstItem="zae-lX-hGl" firstAttribute="leading" secondItem="Dc8-wa-Pdk" secondAttribute="leadingMargin" constant="38" id="WhU-7F-pJY"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <segue destination="Zl2-WQ-YeV" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="MWU-T1-pbv"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" alpha="0.25" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Make a Post" rowHeight="83" id="MQ1-xE-8wK">
-                                        <rect key="frame" x="0.0" y="166" width="375" height="83"/>
+                                    <tableViewCell clipsSubviews="YES" alpha="0.25" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Make a Post" rowHeight="44" id="MQ1-xE-8wK">
+                                        <rect key="frame" x="0.0" y="239" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MQ1-xE-8wK" id="gBF-GU-B8F">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="82.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="message.png" translatesAutoresizingMaskIntoConstraints="NO" id="ckS-L0-bie">
+                                                    <rect key="frame" x="46" y="0.0" width="38" height="39"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="38" id="cpj-G0-LOp"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ckS-L0-bie" firstAttribute="top" secondItem="gBF-GU-B8F" secondAttribute="top" id="S4K-C8-EGe"/>
+                                                <constraint firstItem="ckS-L0-bie" firstAttribute="leading" secondItem="gBF-GU-B8F" secondAttribute="leadingMargin" constant="38" id="kWm-fn-CR8"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="ckS-L0-bie" secondAttribute="bottom" constant="-3.5" id="tcb-7B-Gt7"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <segue destination="Fzk-Gs-R0z" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Fi5-Su-Asf"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" alpha="0.25" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Schedule" rowHeight="83" id="6Eg-GO-DUu">
-                                        <rect key="frame" x="0.0" y="249" width="375" height="83"/>
+                                    <tableViewCell clipsSubviews="YES" alpha="0.25" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Schedule" rowHeight="44" id="6Eg-GO-DUu">
+                                        <rect key="frame" x="0.0" y="283" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6Eg-GO-DUu" id="sbP-bN-o0N">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="82.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar.png" translatesAutoresizingMaskIntoConstraints="NO" id="gOQ-mg-do7">
+                                                    <rect key="frame" x="46" y="0.0" width="38" height="39"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="38" id="tKU-zW-IO8"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="gOQ-mg-do7" firstAttribute="top" secondItem="sbP-bN-o0N" secondAttribute="top" id="Gmg-Vx-ndK"/>
+                                                <constraint firstItem="gOQ-mg-do7" firstAttribute="leading" secondItem="sbP-bN-o0N" secondAttribute="leadingMargin" constant="38" id="QrR-CT-CBD"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="gOQ-mg-do7" secondAttribute="bottom" constant="-3.5" id="ptM-N3-2Pr"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <segue destination="Qfy-Ed-5ri" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="1f0-DK-zxt"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" alpha="0.25" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Grocery List" rowHeight="83" id="qgq-EU-nJ4">
-                                        <rect key="frame" x="0.0" y="332" width="375" height="83"/>
+                                    <tableViewCell clipsSubviews="YES" alpha="0.25" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Grocery List" rowHeight="44" id="qgq-EU-nJ4">
+                                        <rect key="frame" x="0.0" y="327" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qgq-EU-nJ4" id="bBZ-U0-MV1">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="82.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="groceryList.png" translatesAutoresizingMaskIntoConstraints="NO" id="crC-Ja-X1h">
+                                                    <rect key="frame" x="46" y="0.0" width="38" height="39"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="38" id="MAO-sr-KQE"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="crC-Ja-X1h" secondAttribute="bottom" constant="-3.5" id="Ngn-0i-xVN"/>
+                                                <constraint firstItem="crC-Ja-X1h" firstAttribute="leading" secondItem="bBZ-U0-MV1" secondAttribute="leadingMargin" constant="38" id="jd7-0I-JL6"/>
+                                                <constraint firstItem="crC-Ja-X1h" firstAttribute="top" secondItem="bBZ-U0-MV1" secondAttribute="top" id="yWq-Mz-C1d"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <segue destination="jUt-N8-0eR" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="lK7-pg-GhO"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" alpha="0.25" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Purchases" rowHeight="83" id="A2x-i6-goC">
-                                        <rect key="frame" x="0.0" y="415" width="375" height="83"/>
+                                    <tableViewCell clipsSubviews="YES" alpha="0.25" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Purchases" rowHeight="44" id="A2x-i6-goC">
+                                        <rect key="frame" x="0.0" y="371" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="A2x-i6-goC" id="Gv2-eg-Gs0">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="82.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="transactions.png" translatesAutoresizingMaskIntoConstraints="NO" id="9CO-MX-k4K">
+                                                    <rect key="frame" x="46" y="0.0" width="38" height="39"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="38" id="AXR-hI-g6m"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="9CO-MX-k4K" firstAttribute="leading" secondItem="Gv2-eg-Gs0" secondAttribute="leadingMargin" constant="38" id="EXD-7k-Crj"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="9CO-MX-k4K" secondAttribute="bottom" constant="-3.5" id="gV0-Or-96k"/>
+                                                <constraint firstItem="9CO-MX-k4K" firstAttribute="top" secondItem="Gv2-eg-Gs0" secondAttribute="top" id="gc0-rJ-T8c"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <segue destination="Rma-a4-0Kq" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="u7k-tv-ZYb"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" alpha="0.25" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Logout" rowHeight="105" id="p60-Tl-88f" userLabel="Logout">
-                                        <rect key="frame" x="0.0" y="498" width="375" height="105"/>
+                                    <tableViewCell clipsSubviews="YES" alpha="0.25" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Logout" rowHeight="189" id="p60-Tl-88f" userLabel="Logout">
+                                        <rect key="frame" x="0.0" y="415" width="375" height="189"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="p60-Tl-88f" id="bdR-v4-Hdu">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="189"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="doorExit.png" translatesAutoresizingMaskIntoConstraints="NO" id="19O-ak-tf5">
-                                                    <rect key="frame" x="18" y="8" width="38" height="45"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logout6.png" translatesAutoresizingMaskIntoConstraints="NO" id="iXq-Y2-ruG">
+                                                    <rect key="frame" x="37" y="0.0" width="55" height="55"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" secondItem="19O-ak-tf5" secondAttribute="height" multiplier="38:45" id="pNl-FP-N7R"/>
-                                                        <constraint firstAttribute="width" constant="38" id="wc0-0v-6Oa"/>
+                                                        <constraint firstAttribute="width" constant="55" id="9VO-BA-GCs"/>
+                                                        <constraint firstAttribute="height" constant="55" id="ed5-zT-LzZ"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="19O-ak-tf5" secondAttribute="bottom" constant="43.5" id="32H-Vc-Lfw"/>
-                                                <constraint firstItem="19O-ak-tf5" firstAttribute="top" secondItem="bdR-v4-Hdu" secondAttribute="topMargin" id="bWC-VH-e6F"/>
-                                                <constraint firstItem="19O-ak-tf5" firstAttribute="leading" secondItem="bdR-v4-Hdu" secondAttribute="leadingMargin" constant="10" id="zze-c6-hFv"/>
+                                                <constraint firstItem="iXq-Y2-ruG" firstAttribute="leading" secondItem="bdR-v4-Hdu" secondAttribute="leadingMargin" constant="29" id="C4K-wk-J6F"/>
+                                                <constraint firstItem="iXq-Y2-ruG" firstAttribute="top" secondItem="bdR-v4-Hdu" secondAttribute="top" id="jzh-hT-K5T"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -759,9 +845,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="doorExit.png" width="512" height="512"/>
+        <image name="calendar.png" width="512" height="512"/>
+        <image name="groceryList.png" width="200" height="200"/>
+        <image name="home.png" width="512" height="512"/>
+        <image name="human.png" width="512" height="512"/>
         <image name="livingRoom.jpg" width="736" height="981"/>
+        <image name="logout6.png" width="200" height="200"/>
+        <image name="message.png" width="128" height="128"/>
         <image name="placeholder.png" width="270" height="170"/>
+        <image name="transactions.png" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="AG9-k5-IaF"/>
