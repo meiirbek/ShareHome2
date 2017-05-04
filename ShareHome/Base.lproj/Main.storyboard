@@ -97,7 +97,7 @@
         <scene sceneID="v1a-DB-Cy1">
             <objects>
                 <navigationController id="Xkn-bu-nCU" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="sZw-Ie-SPZ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sZw-Ie-SPZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.30996793509999998" green="0.76365143059999996" blue="0.22089439629999999" alpha="0.5035130033557047" colorSpace="custom" customColorSpace="sRGB"/>
@@ -120,10 +120,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        <imageView key="tableFooterView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="sOs-zI-yg7">
-                            <rect key="frame" x="0.0" y="605" width="375" height="128"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        </imageView>
                         <sections>
                             <tableViewSection id="Zc4-Yn-7ay">
                                 <cells>
@@ -150,11 +146,11 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26C-Lb-KDx">
-                                                    <rect key="frame" x="96" y="13" width="41" height="19.5"/>
+                                                    <rect key="frame" x="96" y="12" width="46" height="20"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Home">
                                                             <attributes>
-                                                                <font key="NSFont" size="17" name="CourierNewPSMT"/>
+                                                                <font key="NSFont" size="17" name="Optima-Regular"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -189,11 +185,11 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJw-9S-prO">
-                                                    <rect key="frame" x="96" y="13" width="71.5" height="19.5"/>
+                                                    <rect key="frame" x="96" y="12" width="47.5" height="20"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Profile">
                                                             <attributes>
-                                                                <font key="NSFont" size="17" name="CourierNewPSMT"/>
+                                                                <font key="NSFont" size="17" name="Optima-Regular"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -228,11 +224,11 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTc-9R-bY1">
-                                                    <rect key="frame" x="96" y="13" width="112.5" height="19.5"/>
+                                                    <rect key="frame" x="96" y="12" width="89" height="20"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Make a post">
                                                             <attributes>
-                                                                <font key="NSFont" size="17" name="CourierNewPSMT"/>
+                                                                <font key="NSFont" size="17" name="Optima-Regular"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -267,11 +263,11 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lmf-LZ-HZm">
-                                                    <rect key="frame" x="96" y="13" width="82" height="19.5"/>
+                                                    <rect key="frame" x="96" y="12" width="67" height="20"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Schedule">
                                                             <attributes>
-                                                                <font key="NSFont" size="17" name="CourierNewPSMT"/>
+                                                                <font key="NSFont" size="17" name="Optima-Regular"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -306,15 +302,15 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHH-mV-aVz">
-                                                    <rect key="frame" x="92" y="12" width="129" height="20"/>
+                                                    <rect key="frame" x="96" y="12" width="129" height="20"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="129" id="ZDF-VB-GBv"/>
+                                                        <constraint firstAttribute="width" constant="129" id="A3k-hp-lkw"/>
                                                     </constraints>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Grocery List">
                                                             <attributes>
-                                                                <font key="NSFont" size="17" name="CourierNewPSMT"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                <font key="NSFont" size="17" name="Optima-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
@@ -322,9 +318,9 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="FHH-mV-aVz" firstAttribute="centerY" secondItem="bBZ-U0-MV1" secondAttribute="centerY" id="GH3-D3-Ky5"/>
+                                                <constraint firstItem="FHH-mV-aVz" firstAttribute="leading" secondItem="crC-Ja-X1h" secondAttribute="trailing" constant="12" id="1Wj-H3-FfP"/>
+                                                <constraint firstItem="FHH-mV-aVz" firstAttribute="centerY" secondItem="bBZ-U0-MV1" secondAttribute="centerY" id="GpH-zo-lar"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="crC-Ja-X1h" secondAttribute="bottom" constant="-3.5" id="Ngn-0i-xVN"/>
-                                                <constraint firstItem="FHH-mV-aVz" firstAttribute="leading" secondItem="crC-Ja-X1h" secondAttribute="trailing" constant="8" symbolic="YES" id="eO2-1a-ei1"/>
                                                 <constraint firstItem="crC-Ja-X1h" firstAttribute="leading" secondItem="bBZ-U0-MV1" secondAttribute="leadingMargin" constant="38" id="jd7-0I-JL6"/>
                                                 <constraint firstItem="crC-Ja-X1h" firstAttribute="top" secondItem="bBZ-U0-MV1" secondAttribute="top" id="yWq-Mz-C1d"/>
                                             </constraints>
@@ -348,11 +344,11 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09H-8F-4me">
-                                                    <rect key="frame" x="96" y="13" width="122.5" height="19.5"/>
+                                                    <rect key="frame" x="96" y="12.5" width="90.5" height="20.5"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Transactions">
                                                             <attributes>
-                                                                <font key="NSFont" size="17" name="CourierNewPSMT"/>
+                                                                <font key="NSFont" size="17" name="Optima-Regular"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -388,11 +384,11 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ta-Re-Hkv">
-                                                    <rect key="frame" x="96" y="12" width="71.5" height="19.5"/>
+                                                    <rect key="frame" x="96" y="12" width="60" height="20.5"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Log Out">
                                                             <attributes>
-                                                                <font key="NSFont" size="17" name="CourierNewPSMT"/>
+                                                                <font key="NSFont" size="17" name="Optima-Regular"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -408,6 +404,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="zm6-f7-SkK" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="A1i-Xq-lYi"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -668,7 +667,7 @@
         <scene sceneID="wxe-MA-Z5c">
             <objects>
                 <collectionViewController id="hg7-jS-F1I" customClass="CollectionViewOfPosts" customModule="ShareHome" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="Pc9-Qa-8ai">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Pc9-Qa-8ai">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4Jc-sy-0di">

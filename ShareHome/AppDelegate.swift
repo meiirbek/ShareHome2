@@ -73,7 +73,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // backendless.mediaService = MediaService()
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
-       
+       application.statusBarStyle = .lightContent
         
         
         if (UserDefaults.standard.value(forKey: "username") as? String) == nil {
