@@ -60,4 +60,12 @@ class PersonalInfo: UIViewController {
         
     }
     
+    @IBAction func createGroupPressed(_ sender: Any) {
+        guard let user = Backendless.sharedInstance().userService.currentUser else {
+            return
+        }
+        let group = Group.init()
+        user.setProperty("groupId", object: group)
+        
+    }
 }

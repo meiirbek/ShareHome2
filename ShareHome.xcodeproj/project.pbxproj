@@ -60,6 +60,11 @@
 		EAD831881EADD41F00618D33 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD831841EADD41F00618D33 /* FBSDKCoreKit.framework */; };
 		EAD831891EADD41F00618D33 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD831851EADD41F00618D33 /* FBSDKLoginKit.framework */; };
 		EAD8318A1EADD41F00618D33 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD831861EADD41F00618D33 /* FBSDKShareKit.framework */; };
+		EAE856BE1EBBB09E00A060E6 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE856BD1EBBB09E00A060E6 /* Group.m */; };
+		EAE856C11EBBB0AE00A060E6 /* GroupService.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE856C01EBBB0AE00A060E6 /* GroupService.m */; };
+		EAE856C81EBBB0BF00A060E6 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE856C31EBBB0BF00A060E6 /* Post.m */; };
+		EAE856C91EBBB0BF00A060E6 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE856C51EBBB0BF00A060E6 /* Task.m */; };
+		EAE856CA1EBBB0BF00A060E6 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE856C71EBBB0BF00A060E6 /* Transaction.m */; };
 		EAFAB65C1EB6BCAA005CCCAD /* MyBackendless.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAB65B1EB6BCAA005CCCAD /* MyBackendless.swift */; };
 		EAFAB65E1EB6DC97005CCCAD /* livingRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAFAB65D1EB6DC97005CCCAD /* livingRoom.jpg */; };
 /* End PBXBuildFile section */
@@ -476,6 +481,16 @@
 		EAD831841EADD41F00618D33 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Documents/FacebookSDKs-iOS-4.22.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		EAD831851EADD41F00618D33 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../Documents/FacebookSDKs-iOS-4.22.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		EAD831861EADD41F00618D33 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../../Documents/FacebookSDKs-iOS-4.22.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		EAE856BC1EBBB09E00A060E6 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Group.h; path = ../../CustomAPIs/GroupService/GroupService/Group.h; sourceTree = "<group>"; };
+		EAE856BD1EBBB09E00A060E6 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Group.m; path = ../../CustomAPIs/GroupService/GroupService/Group.m; sourceTree = "<group>"; };
+		EAE856BF1EBBB0AE00A060E6 /* GroupService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupService.h; path = ../../CustomAPIs/GroupService/GroupService/GroupService.h; sourceTree = "<group>"; };
+		EAE856C01EBBB0AE00A060E6 /* GroupService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupService.m; path = ../../CustomAPIs/GroupService/GroupService/GroupService.m; sourceTree = "<group>"; };
+		EAE856C21EBBB0BF00A060E6 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Post.h; path = ../../CustomAPIs/GroupService/GroupService/Post.h; sourceTree = "<group>"; };
+		EAE856C31EBBB0BF00A060E6 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Post.m; path = ../../CustomAPIs/GroupService/GroupService/Post.m; sourceTree = "<group>"; };
+		EAE856C41EBBB0BF00A060E6 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Task.h; path = ../../CustomAPIs/GroupService/GroupService/Task.h; sourceTree = "<group>"; };
+		EAE856C51EBBB0BF00A060E6 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = ../../CustomAPIs/GroupService/GroupService/Task.m; sourceTree = "<group>"; };
+		EAE856C61EBBB0BF00A060E6 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transaction.h; path = ../../CustomAPIs/GroupService/GroupService/Transaction.h; sourceTree = "<group>"; };
+		EAE856C71EBBB0BF00A060E6 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transaction.m; path = ../../CustomAPIs/GroupService/GroupService/Transaction.m; sourceTree = "<group>"; };
 		EAFAB65A1EB6A519005CCCAD /* ShareHome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareHome.entitlements; sourceTree = "<group>"; };
 		EAFAB65B1EB6BCAA005CCCAD /* MyBackendless.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBackendless.swift; sourceTree = "<group>"; };
 		EAFAB65D1EB6DC97005CCCAD /* livingRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = livingRoom.jpg; path = ../../livingRoom.jpg; sourceTree = "<group>"; };
@@ -592,6 +607,16 @@
 		EA7C6F801E78DD9C0057D3D9 /* ShareHome */ = {
 			isa = PBXGroup;
 			children = (
+				EAE856C21EBBB0BF00A060E6 /* Post.h */,
+				EAE856C31EBBB0BF00A060E6 /* Post.m */,
+				EAE856C41EBBB0BF00A060E6 /* Task.h */,
+				EAE856C51EBBB0BF00A060E6 /* Task.m */,
+				EAE856C61EBBB0BF00A060E6 /* Transaction.h */,
+				EAE856C71EBBB0BF00A060E6 /* Transaction.m */,
+				EAE856BF1EBBB0AE00A060E6 /* GroupService.h */,
+				EAE856C01EBBB0AE00A060E6 /* GroupService.m */,
+				EAE856BC1EBBB09E00A060E6 /* Group.h */,
+				EAE856BD1EBBB09E00A060E6 /* Group.m */,
 				EAFAB65A1EB6A519005CCCAD /* ShareHome.entitlements */,
 				EA23106A1E7B5362000D37B8 /* Controllers */,
 				EA7C6FAF1E78DF8E0057D3D9 /* SupportingFiles */,
@@ -1342,6 +1367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA7026C51E96D7F000AFED72 /* Purchases.swift in Sources */,
+				EAE856C91EBBB0BF00A060E6 /* Task.m in Sources */,
 				EAD292471E95D982004F1AB5 /* PersonalTaskCell.swift in Sources */,
 				EA23106E1E7BA1F1000D37B8 /* PersonalInfo.swift in Sources */,
 				EA7C6F841E78DD9C0057D3D9 /* ViewController.swift in Sources */,
@@ -1351,11 +1377,15 @@
 				EA7C6F821E78DD9C0057D3D9 /* AppDelegate.swift in Sources */,
 				EAFAB65C1EB6BCAA005CCCAD /* MyBackendless.swift in Sources */,
 				EA7026C11E96D7CA00AFED72 /* Schedule.swift in Sources */,
+				EAE856C11EBBB0AE00A060E6 /* GroupService.m in Sources */,
 				EAD292451E95CD42004F1AB5 /* CollectionViewofPosts.swift in Sources */,
 				EA7C6FB51E78E6BD0057D3D9 /* BackTableVC.swift in Sources */,
+				EAE856C81EBBB0BF00A060E6 /* Post.m in Sources */,
 				EA2310701E7BA252000D37B8 /* MakePost.swift in Sources */,
 				EA7C6FB31E78DFC40057D3D9 /* SWRevealViewController.m in Sources */,
 				EA23106C1E7B9FE1000D37B8 /* MainPage.swift in Sources */,
+				EAE856CA1EBBB0BF00A060E6 /* Transaction.m in Sources */,
+				EAE856BE1EBBB09E00A060E6 /* Group.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
