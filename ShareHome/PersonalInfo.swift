@@ -64,8 +64,8 @@ class PersonalInfo: UIViewController {
         guard let user = Backendless.sharedInstance().userService.currentUser else {
             return
         }
-        let group = Group.init()
-        user.setProperty("groupId", object: group)
+     //   let group = Group.init()
+       // user.setProperty("groupId", object: group)
         
     }
 }
