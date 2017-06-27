@@ -69,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PQZ-1L-UKL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-962.39999999999998" y="900.89955022488766"/>
+            <point key="canvasLocation" x="-522" y="862"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="Ysf-dZ-xne">
@@ -337,38 +337,38 @@
                                     <segue destination="Rma-a4-0Kq" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="u7k-tv-ZYb"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" alpha="0.29999999999999999" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Logout" rowHeight="55" id="p60-Tl-88f" userLabel="Logout">
+                            <tableViewCell clipsSubviews="YES" alpha="0.30000001192092896" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Logout" rowHeight="55" id="vh6-h9-lqZ">
                                 <rect key="frame" x="0.0" y="473" width="375" height="55"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="p60-Tl-88f" id="bdR-v4-Hdu">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vh6-h9-lqZ" id="hgF-vY-3gu">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logout" translatesAutoresizingMaskIntoConstraints="NO" id="9qX-1F-Dzk">
-                                            <rect key="frame" x="46" y="0.0" width="38" height="51"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logout" translatesAutoresizingMaskIntoConstraints="NO" id="hka-e2-Fzn">
+                                            <rect key="frame" x="46" y="0.0" width="38" height="50.5"/>
                                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="38" id="Isd-BL-oMr"/>
-                                                <constraint firstAttribute="height" constant="51" id="oiz-bQ-eSj"/>
+                                                <constraint firstAttribute="width" constant="38" id="yZK-Eh-oH5"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log Out" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ta-Re-Hkv">
-                                            <rect key="frame" x="96" y="18" width="60" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log Out" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1k-tE-rbp">
+                                            <rect key="frame" x="96" y="17.5" width="60" height="21"/>
                                             <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="8Ta-Re-Hkv" firstAttribute="top" secondItem="bdR-v4-Hdu" secondAttribute="topMargin" constant="9.5" id="83S-Bb-gGC"/>
-                                        <constraint firstItem="8Ta-Re-Hkv" firstAttribute="leading" secondItem="9qX-1F-Dzk" secondAttribute="trailing" constant="12" id="9Bb-33-1Fs"/>
-                                        <constraint firstItem="9qX-1F-Dzk" firstAttribute="leading" secondItem="bdR-v4-Hdu" secondAttribute="leadingMargin" constant="38" id="QAZ-Tw-kJ3"/>
-                                        <constraint firstItem="9qX-1F-Dzk" firstAttribute="top" secondItem="bdR-v4-Hdu" secondAttribute="top" id="nBG-ik-gk2"/>
+                                        <constraint firstItem="hka-e2-Fzn" firstAttribute="leading" secondItem="hgF-vY-3gu" secondAttribute="leadingMargin" constant="38" id="ISx-TM-63U"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="hka-e2-Fzn" secondAttribute="bottom" constant="-3.5" id="RlB-Ha-epW"/>
+                                        <constraint firstItem="hka-e2-Fzn" firstAttribute="top" secondItem="hgF-vY-3gu" secondAttribute="top" id="XPZ-gD-1ML"/>
+                                        <constraint firstItem="N1k-tE-rbp" firstAttribute="centerY" secondItem="hgF-vY-3gu" secondAttribute="centerY" id="nAk-YX-FoX"/>
+                                        <constraint firstItem="N1k-tE-rbp" firstAttribute="leading" secondItem="hka-e2-Fzn" secondAttribute="trailing" constant="12" id="rLg-Ui-Fjl"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <segue destination="zm6-f7-SkK" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="A1i-Xq-lYi"/>
+                                    <segue destination="zm6-f7-SkK" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="KP5-e7-6FW"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -874,12 +874,12 @@
     <resources>
         <image name="Grocery List" width="44" height="44"/>
         <image name="Home" width="44" height="44"/>
+        <image name="Logout" width="44" height="44"/>
         <image name="Make a Post" width="44" height="44"/>
         <image name="Profile" width="44" height="44"/>
         <image name="Schedule" width="44" height="44"/>
         <image name="Transactions" width="44" height="44"/>
         <image name="livingRoom.jpg" width="736" height="981"/>
-        <image name="logout" width="44" height="44"/>
         <image name="placeholder.png" width="270" height="170"/>
     </resources>
     <inferredMetricsTieBreakers>
