@@ -14,7 +14,6 @@ class BackTableVC: UITableViewController {
     var TableArray = [String] ()
     
     override func viewDidLoad() {
-        //TableArray = ["Home","Profile","Make a Post", "Schedule","Grocery List","Purchases"]
         TableArray = ["topPart","Home", "Profile","Make a Post","Schedule", "Grocery List", "Purchases", "Logout"]
         self.navigationController?.navigationBar.layer.masksToBounds = false
         self.navigationController?.navigationBar.layer.shadowColor = UIColor.black.cgColor
@@ -30,10 +29,6 @@ class BackTableVC: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: TableArray[indexPath.row], for: indexPath) as UITableViewCell
-        
-        cell.textLabel?.textColor = UIColor.lightGray
-        
-        
         return cell
     }
     
