@@ -14,7 +14,6 @@
 		EA7026C11E96D7CA00AFED72 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7026C01E96D7CA00AFED72 /* Schedule.swift */; };
 		EA7026C31E96D7E200AFED72 /* GroceryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7026C21E96D7E200AFED72 /* GroceryList.swift */; };
 		EA7026C51E96D7F000AFED72 /* Purchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7026C41E96D7F000AFED72 /* Purchases.swift */; };
-		EA7026C71E96E09C00AFED72 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7026C61E96E09C00AFED72 /* home.png */; };
 		EA7026CB1E96FF0400AFED72 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7026CA1E96FF0400AFED72 /* placeholder.png */; };
 		EA7C6F821E78DD9C0057D3D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C6F811E78DD9C0057D3D9 /* AppDelegate.swift */; };
 		EA7C6F841E78DD9C0057D3D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C6F831E78DD9C0057D3D9 /* ViewController.swift */; };
@@ -26,19 +25,7 @@
 		EA7C6FB31E78DFC40057D3D9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7C6FB21E78DFC40057D3D9 /* SWRevealViewController.m */; };
 		EA7C6FB51E78E6BD0057D3D9 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C6FB41E78E6BD0057D3D9 /* BackTableVC.swift */; };
 		EA82FB2E1E7A853700F4B191 /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = EA82FB2D1E7A853700F4B191 /* burger.png */; };
-		EA8D30401EB83C4900F3686B /* human.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D303F1EB83C4900F3686B /* human.png */; };
-		EA8D30461EB83F5900F3686B /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D30451EB83F5900F3686B /* calendar.png */; };
-		EA8D30481EB8407000F3686B /* groceryList.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D30471EB8407000F3686B /* groceryList.png */; };
-		EA8D304A1EB8415300F3686B /* transactions.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D30491EB8415300F3686B /* transactions.png */; };
-		EA8D30541EB8425500F3686B /* logout6.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D30531EB8425500F3686B /* logout6.png */; };
-		EA8D305E1EB845DD00F3686B /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D30571EB845DD00F3686B /* calendar.png */; };
-		EA8D305F1EB845DD00F3686B /* groceryList.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D30581EB845DD00F3686B /* groceryList.png */; };
-		EA8D30601EB845DD00F3686B /* human.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D30591EB845DD00F3686B /* human.png */; };
 		EA8D30611EB845DD00F3686B /* livingRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA8D305A1EB845DD00F3686B /* livingRoom.jpg */; };
-		EA8D30621EB845DD00F3686B /* logout6.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D305B1EB845DD00F3686B /* logout6.png */; };
-		EA8D30631EB845DD00F3686B /* menuBGApart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA8D305C1EB845DD00F3686B /* menuBGApart.jpg */; };
-		EA8D30641EB845DD00F3686B /* texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA8D305D1EB845DD00F3686B /* texture.jpg */; };
-		EA8D30661EB846E800F3686B /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = EA8D30651EB846E800F3686B /* message.png */; };
 		EAD046321EA484E700319AB2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD046311EA484E700319AB2 /* SystemConfiguration.framework */; };
 		EAD046341EA484F300319AB2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD046331EA484F300319AB2 /* libsqlite3.tbd */; };
 		EAD046361EA484FC00319AB2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD046351EA484FC00319AB2 /* libz.tbd */; };
@@ -61,7 +48,6 @@
 		EAD831891EADD41F00618D33 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD831851EADD41F00618D33 /* FBSDKLoginKit.framework */; };
 		EAD8318A1EADD41F00618D33 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD831861EADD41F00618D33 /* FBSDKShareKit.framework */; };
 		EAFAB65C1EB6BCAA005CCCAD /* MyBackendless.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFAB65B1EB6BCAA005CCCAD /* MyBackendless.swift */; };
-		EAFAB65E1EB6DC97005CCCAD /* livingRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAFAB65D1EB6DC97005CCCAD /* livingRoom.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,7 +75,6 @@
 		EA7026C01E96D7CA00AFED72 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		EA7026C21E96D7E200AFED72 /* GroceryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryList.swift; sourceTree = "<group>"; };
 		EA7026C41E96D7F000AFED72 /* Purchases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchases.swift; sourceTree = "<group>"; };
-		EA7026C61E96E09C00AFED72 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		EA7026CA1E96FF0400AFED72 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		EA7C6F7E1E78DD9C0057D3D9 /* ShareHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7C6F811E78DD9C0057D3D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,19 +94,7 @@
 		EA7C6FB21E78DFC40057D3D9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		EA7C6FB41E78E6BD0057D3D9 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
 		EA82FB2D1E7A853700F4B191 /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = "<group>"; };
-		EA8D303F1EB83C4900F3686B /* human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = human.png; path = ../../human.png; sourceTree = "<group>"; };
-		EA8D30451EB83F5900F3686B /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = ../../calendar.png; sourceTree = "<group>"; };
-		EA8D30471EB8407000F3686B /* groceryList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = groceryList.png; path = ../../groceryList.png; sourceTree = "<group>"; };
-		EA8D30491EB8415300F3686B /* transactions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transactions.png; path = ../../transactions.png; sourceTree = "<group>"; };
-		EA8D30531EB8425500F3686B /* logout6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logout6.png; path = ../../logout6.png; sourceTree = "<group>"; };
-		EA8D30571EB845DD00F3686B /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = ../../calendar.png; sourceTree = "<group>"; };
-		EA8D30581EB845DD00F3686B /* groceryList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = groceryList.png; path = ../../groceryList.png; sourceTree = "<group>"; };
-		EA8D30591EB845DD00F3686B /* human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = human.png; path = ../../human.png; sourceTree = "<group>"; };
 		EA8D305A1EB845DD00F3686B /* livingRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = livingRoom.jpg; path = ../../livingRoom.jpg; sourceTree = "<group>"; };
-		EA8D305B1EB845DD00F3686B /* logout6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logout6.png; path = ../../logout6.png; sourceTree = "<group>"; };
-		EA8D305C1EB845DD00F3686B /* menuBGApart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = menuBGApart.jpg; path = ../../menuBGApart.jpg; sourceTree = "<group>"; };
-		EA8D305D1EB845DD00F3686B /* texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = texture.jpg; path = ../../texture.jpg; sourceTree = "<group>"; };
-		EA8D30651EB846E800F3686B /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = message.png; path = ../../../Downloads/message.png; sourceTree = "<group>"; };
 		EAD046311EA484E700319AB2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EAD046331EA484F300319AB2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		EAD046351EA484FC00319AB2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -478,7 +451,6 @@
 		EAD831861EADD41F00618D33 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../../Documents/FacebookSDKs-iOS-4.22.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		EAFAB65A1EB6A519005CCCAD /* ShareHome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareHome.entitlements; sourceTree = "<group>"; };
 		EAFAB65B1EB6BCAA005CCCAD /* MyBackendless.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBackendless.swift; sourceTree = "<group>"; };
-		EAFAB65D1EB6DC97005CCCAD /* livingRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = livingRoom.jpg; path = ../../livingRoom.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -527,21 +499,7 @@
 		EA2310681E7B532D000D37B8 /* pics */ = {
 			isa = PBXGroup;
 			children = (
-				EA8D303F1EB83C4900F3686B /* human.png */,
-				EA8D30571EB845DD00F3686B /* calendar.png */,
-				EA8D30581EB845DD00F3686B /* groceryList.png */,
-				EA8D30591EB845DD00F3686B /* human.png */,
 				EA8D305A1EB845DD00F3686B /* livingRoom.jpg */,
-				EA8D305B1EB845DD00F3686B /* logout6.png */,
-				EA8D305C1EB845DD00F3686B /* menuBGApart.jpg */,
-				EA8D305D1EB845DD00F3686B /* texture.jpg */,
-				EA8D30491EB8415300F3686B /* transactions.png */,
-				EAFAB65D1EB6DC97005CCCAD /* livingRoom.jpg */,
-				EA8D30531EB8425500F3686B /* logout6.png */,
-				EA8D30451EB83F5900F3686B /* calendar.png */,
-				EA8D30471EB8407000F3686B /* groceryList.png */,
-				EA7026C61E96E09C00AFED72 /* home.png */,
-				EA8D30651EB846E800F3686B /* message.png */,
 				EA7026CA1E96FF0400AFED72 /* placeholder.png */,
 				EA82FB2D1E7A853700F4B191 /* burger.png */,
 			);
@@ -1297,23 +1255,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA8D30401EB83C4900F3686B /* human.png in Resources */,
 				EA82FB2E1E7A853700F4B191 /* burger.png in Resources */,
-				EA8D30621EB845DD00F3686B /* logout6.png in Resources */,
-				EA8D30631EB845DD00F3686B /* menuBGApart.jpg in Resources */,
-				EA8D304A1EB8415300F3686B /* transactions.png in Resources */,
-				EA7026C71E96E09C00AFED72 /* home.png in Resources */,
-				EAFAB65E1EB6DC97005CCCAD /* livingRoom.jpg in Resources */,
-				EA8D305E1EB845DD00F3686B /* calendar.png in Resources */,
-				EA8D30461EB83F5900F3686B /* calendar.png in Resources */,
-				EA8D305F1EB845DD00F3686B /* groceryList.png in Resources */,
 				EA7C6F8C1E78DD9C0057D3D9 /* LaunchScreen.storyboard in Resources */,
-				EA8D30481EB8407000F3686B /* groceryList.png in Resources */,
-				EA8D30541EB8425500F3686B /* logout6.png in Resources */,
-				EA8D30641EB845DD00F3686B /* texture.jpg in Resources */,
 				EA8D30611EB845DD00F3686B /* livingRoom.jpg in Resources */,
-				EA8D30661EB846E800F3686B /* message.png in Resources */,
-				EA8D30601EB845DD00F3686B /* human.png in Resources */,
 				EA7026CB1E96FF0400AFED72 /* placeholder.png in Resources */,
 				EA7C6F891E78DD9C0057D3D9 /* Assets.xcassets in Resources */,
 				EA7C6F871E78DD9C0057D3D9 /* Main.storyboard in Resources */,
