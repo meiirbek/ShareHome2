@@ -140,7 +140,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26C-Lb-KDx">
                                             <rect key="frame" x="96" y="18" width="46" height="20"/>
                                             <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="textColor" red="0.73727768659591675" green="0.73336416482925415" blue="0.73319798707962036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home" translatesAutoresizingMaskIntoConstraints="NO" id="EDc-lY-2Cp">
@@ -181,7 +181,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJw-9S-prO">
                                             <rect key="frame" x="96" y="17.5" width="47.5" height="20"/>
                                             <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="textColor" red="0.73727768660000004" green="0.7333641648" blue="0.73319798709999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="highlightedColor" red="0.73335647583007812" green="0.72944235801696777" blue="0.72927695512771606" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </label>
                                     </subviews>
@@ -215,7 +215,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make a post" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTc-9R-bY1">
                                             <rect key="frame" x="96" y="17.5" width="89" height="20"/>
                                             <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="textColor" red="0.73727768660000004" green="0.7333641648" blue="0.73319798709999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -249,7 +249,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Schedule" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lmf-LZ-HZm">
                                             <rect key="frame" x="96" y="17.5" width="67" height="20"/>
                                             <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="textColor" red="0.73727768660000004" green="0.7333641648" blue="0.73319798709999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -286,7 +286,7 @@
                                                 <constraint firstAttribute="width" constant="129" id="A3k-hp-lkw"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="textColor" red="0.73727768660000004" green="0.7333641648" blue="0.73319798709999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -320,7 +320,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transactions" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09H-8F-4me">
                                             <rect key="frame" x="96" y="17.5" width="90.5" height="20.5"/>
                                             <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="textColor" red="0.73727768660000004" green="0.7333641648" blue="0.73319798709999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -354,7 +354,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log Out" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1k-tE-rbp">
                                             <rect key="frame" x="96" y="17.5" width="60" height="21"/>
                                             <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
-                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="textColor" red="0.73727768660000004" green="0.7333641648" blue="0.73319798709999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -780,10 +780,10 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zl2-WQ-YeV" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hbi-e3-pbA">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Hbi-e3-pbA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.30996793509999998" green="0.76365143059999996" blue="0.22089439629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.30980392156862746" green="0.76470588235294112" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

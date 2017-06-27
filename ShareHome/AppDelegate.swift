@@ -73,7 +73,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // backendless.mediaService = MediaService()
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
-       application.statusBarStyle = .lightContent
+        application.statusBarStyle = .lightContent
         
         
         if (UserDefaults.standard.value(forKey: "username") as? String) == nil {
@@ -83,6 +83,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         self.window?.makeKeyAndVisible()
+        let statusBarBackgroundView = UIView()
+        statusBarBackgroundView.backgroundColor = UIColor.init(red: 0/255, green: 145/255, blue: 0/255, alpha: 1)
+        window?.addSubview(statusBarBackgroundView)
+        window?.addConstraintsWithFormat(format: "H:|[v0]|", views: statusBarBackgroundView)
+        window?.addConstraintsWithFormat(format: "V:|[v0(20)]|", views: statusBarBackgroundView)
         
         FBSDKApplicationDelegate.sharedInstance().application(application,
                                                                      didFinishLaunchingWithOptions: launchOptions)
@@ -125,5 +130,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     
+}
+
+extension UIView {
+    func addConstraintsWithFormat(format: String, views: UIView...) {
+        var viewsDictionary = [String: UIView]()
+        for (index, view) in views.enumerated() {
+            let key = "v\(index)"
+            view.translatesAutoresizingMaskIntoConstraints = false
+            viewsDictionary[key] = view
+        }
+        
+        addConstraints(NSLayoutConstraint.constraints(withVisualFormat: format, options: NSLayoutFormatOptions(), metrics: nil, views: viewsDictionary))
+    }
 }
 
